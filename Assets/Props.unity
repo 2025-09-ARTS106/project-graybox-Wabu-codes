@@ -9293,6 +9293,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5688739180749322281, guid: dc039a4dd2feb1040b2357792be1505f, type: 3}
   m_PrefabInstance: {fileID: 542341057}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &598787894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 598787896}
+  - component: {fileID: 598787895}
+  m_Layer: 0
+  m_Name: SkyBoxChange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &598787895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598787894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00162fb7fe810a4784176ad2c323153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Day: {fileID: 2100000, guid: 56113b3b655ab7349bab4d7d405c258a, type: 2}
+  Sunset: {fileID: 2100000, guid: 2441c79940171dc43b33badf9fe97828, type: 2}
+  Night: {fileID: 2100000, guid: 52fcefd712182d743a781fde12426775, type: 2}
+--- !u!4 &598787896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598787894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.90046, y: 26.3, z: 33.59225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &599190651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32730,3 +32777,4 @@ SceneRoots:
   - {fileID: 690557697}
   - {fileID: 1038504970}
   - {fileID: 616082572}
+  - {fileID: 598787896}
