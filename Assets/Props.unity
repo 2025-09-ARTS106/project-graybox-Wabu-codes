@@ -9325,6 +9325,9 @@ MonoBehaviour:
   Day: {fileID: 2100000, guid: 56113b3b655ab7349bab4d7d405c258a, type: 2}
   Sunset: {fileID: 2100000, guid: 2441c79940171dc43b33badf9fe97828, type: 2}
   Night: {fileID: 2100000, guid: 52fcefd712182d743a781fde12426775, type: 2}
+  dayNightIsRunning: 0
+  DayLength: 12
+  FirstDayLength: 3
 --- !u!4 &598787896
 Transform:
   m_ObjectHideFlags: 0
@@ -12420,7 +12423,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &772523330
 AudioListener:
   m_ObjectHideFlags: 0
