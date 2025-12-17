@@ -29,9 +29,9 @@ public class SkyBoxChange : MonoBehaviour
     {
         yield return new WaitForSeconds(FirstDayLength); //day
         ChangeSkyBoxSunset();
-        yield return new WaitForSeconds(3f); //duration of sunset
+        yield return new WaitForSeconds(SunsetLength); //duration of sunset
         ChangeSkyBoxNight();
-        yield return new WaitForSeconds(6f); //duration of night
+        yield return new WaitForSeconds(NightLength); //duration of night
 
         while (dayNightIsRunning)
         {
